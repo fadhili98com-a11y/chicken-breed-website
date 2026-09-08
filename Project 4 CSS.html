@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<Style>
+    body {
+        background-color: #1C222E;
+        margin: 20px;
+
+        h1 {
+            color: #F2F5F8;
+            font-family: Georgia, serif;
+            font-weight: 700;
+        } 
+
+        button {
+            background-color: #3F3820;
+            color: #D2AE3D;
+            padding: 5px;
+            border-radius: 15px;
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+
+    .container1 {
+        width: 250px;
+        height: 450px;
+        background-color: #1C222E;
+        flex: 1;
+
+        Img {
+            width: 250px;
+            height: 150px;
+        }
+        border-radius: 30px;
+        margin: 20px;
+        overflow: hidden;
+
+        .card {
+            margin: 20px;
+
+            h2 {
+                color: #F2F5F8;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+            }
+
+            .p1 {
+                color: lightgray;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: small;
+            }
+
+            p {
+                color: gold;
+            }
+
+            .p2 {
+                color: green;
+                font-size: large;
+            }
+
+            .p3 {
+                color: lightgray;
+            }
+
+            button {
+                color: gold;
+            }
+
+            .details-btn {
+                border-radius: 10px;
+                padding: 10px;
+                background-color: transparent;
+                border: 1px solid gold;
+                box-shadow: 0, 0, 4px gold ;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: lighter;
+                font-size: small;
+                transition: 1s;
+                cursor: pointer;
+            }
+
+            .details-btn:hover {
+                transform: translateY(5px);
+            }
+
+            .stock-btn {
+                color: black;
+                background-color: #786834;
+                margin: 5px;
+                padding: 5px;
+                border-radius: 5px;
+            }
+
+        }
+    }
+
+    .container2 {
+        width: 250px;
+        height: 450px;
+        background-color: #1C222E;
+        flex: 1;
+
+        Img {
+            width: 250px;
+            height: 150px;
+        }
+        border-radius: 30px;
+        margin: 20px;
+        overflow: hidden;
+
+        .card {
+            margin: 20px;
+
+            h2 {
+                color: #F2F5F8;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+            }
+
+            .p1 {
+                color: lightgray;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: small;
+            }
+
+            p {
+                color: gold;
+            }
+
+            .p2 {
+                color: green;
+                font-size: large;
+            }
+
+            .p3 {
+                color: lightgray;
+            }
+
+            button {
+                color: gold;
+            }
+
+            .details-btn {
+                border-radius: 10px;
+                padding: 10px;
+                background-color: transparent;
+                border: 1px solid gold;
+                box-shadow: 0, 0, 4px gold ;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: lighter;
+                font-size: small;
+                transition: 1s;
+                cursor: pointer;
+            }
+
+            .details-btn:hover {
+                transform: translateY(5px);
+            }
+
+            .stock-btn {
+                color: black;
+                background-color: gold;
+                margin: 5px;
+                padding: 6px;
+                border-radius: 8px;
+                border: 1px solid #F2F5F8;
+                box-shadow: 0 0 5p;
+            }
+         }
+    }
+
+    .container3 {
+        width: 250px;
+        height: 450px;
+        background-color: #1C222E;
+        flex: 1;
+
+        Img {
+            width: 250px;
+            height: 150px;
+        }
+        border-radius: 30px;
+        margin: 20px;
+        overflow: hidden;
+
+        .card {
+            margin: 20px;
+
+            h2 {
+                color: #F2F5F8;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+            }
+
+            .p1 {
+                color: lightgray;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: small;
+            }
+
+            p {
+                color: gold;
+            }
+
+            .p2 {
+                color: green;
+                font-size: large;
+            }
+
+            .p3 {
+                color: lightgray;
+            }
+
+            button {
+                color: gold;
+            }
+
+            .details-btn {
+                border-radius: 10px;
+                padding: 10px;
+                background-color: transparent;
+                border: 1px solid gold;
+                box-shadow: 0, 0, 4px gold ;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: lighter;
+                font-size: small;
+                transition: 1s;
+                cursor: pointer;
+            }
+
+            .details-btn:hover {
+                transform: translateY(5px);
+            }
+
+            .stock-btn {
+                color: black;
+                background-color: gold;
+                margin: 5px;
+                padding: 6px;
+                border-radius: 8px;
+                border: 1px solid #F2F5F8;
+                box-shadow: 0 0 5p;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+
+        .container1 {
+            width: 100%;
+        }
+
+        .container2 {
+            width: 100%;
+        }
+
+        .container3 {
+            width: 100%;
+        }
+    }
+</Style>
+<body>
+    <h1>Welcome, Jay Jay</h1>
+    <button>Guest Account</button>
+    <div class="container">
+        <div class="container1"> 
+            <img src="chicken1.webp" alt="A chicken exotic">
+            <div class="card">
+                <h2>New exotic</h2>
+                <p class="p1">This is a heavy and fat species</p>
+                <p>Age: 9 weeks</p>
+                <p>Weight: 2.50 kg</p>
+                <p class="p2">KSh 1,200.00</p>
+                <p class="p3">Out Of Stock</p>
+                <button class="details-btn">Details</button>
+                <button class="stock-btn" disabled>Out Of Stock</button>
+            </div>
+        </div>
+        <div class="container2">
+            <img src="chicken2.webp" alt="A light sussex chicken">
+            <div class="card">
+                <h2>Light Sussex</h2>
+                <p class="p1">Hight quality product nd hih</p>
+                <p>Age: 904 weeks</p>
+                <p>Weight: 67.00 kg</p>
+                <p class="p2">KSh 6,7899.00</p>
+                <p class="p3">Stock: 4</p>
+                <button class="details-btn">Details</button>
+                <button class="stock-btn">Add To Cart</button>
+            </div>
+        </div>
+        <div class="container3">
+            <img src="chicken3.webp" alt="A kienyeji chicken">
+            <div class="card">
+                <h2>Kienyeji heavy</h2>
+                <p class="p1">Good and very tasty, consider this one kindly</p>
+                <p>Age: 8 weeks</p>
+                <p>Weight: 98.00 kg</p>
+                <p class="p2">KSh 950.00</p>
+                <p class="p3">Stock: 86</p>
+                <button class="details-btn">Details</button>
+                <button class="stock-btn">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
